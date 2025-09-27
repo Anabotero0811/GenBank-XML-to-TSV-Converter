@@ -5,7 +5,7 @@ git clone https://github.com/tuusuario/GenBank-XML-to-TSV-Converter.git
 cd GenBank-XML-to-TSV-Converter
 
 ## 2. Preparar los archivos
-Asegurarse de que en la carpeta del proyecti estén:
+Asegurarse de que en la carpeta del proyecto estén:
 - converter.py
 - El archivo GenBank en formato XML (ejemplo: sequence_2.xml)
 
