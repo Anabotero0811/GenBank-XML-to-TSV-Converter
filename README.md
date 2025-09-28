@@ -1,6 +1,6 @@
 # GenBank XML to TSV Converter
 
-Este programa permite convertir archivos en formato **GenBank XML** a un archivo de texto **TSV** (tab-separated values).El resultado es una tabla con datos relevantes como accesiones, nombre gene, locus_tag, posiciones de inicio y fin, y longitud de cada gen y se pueden analizar fácilmnete en programas como Excel.
+Este programa permite convertir archivos en formato **XML** a un archivo de texto **TSV** (tab-separated values).El resultado es una tabla con datos relevantes como accesiones, nombre gene, locus_tag, posiciones de inicio y fin, y longitud de cada gen y se pueden analizar fácilmnete en programas como Excel.
 
 ## Funcionalidad
 - El script utiliza la librería estándar **(xml.etree.ElementTree)** de Python para leer y parsear el archivo XML.
