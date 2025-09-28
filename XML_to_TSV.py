@@ -1,7 +1,8 @@
 import xml.etree.ElementTree as ET
+import gzip
 
 # Archivos
-xml_file = "sequence_2.xml"
+xml_file = "sequence_2.xml.gz"
 tsv_file = "lacZ_data.tsv"
 
 tree = ET.parse(xml_file)
@@ -31,3 +32,4 @@ with open(tsv_file, "w", encoding="utf-8") as out:
                     out.write(f"{accession}\t{gene}\t{locus_tag}\t{start}\t{end}\t{length}\n")
 
 print(f"✅ Conversión completa. Archivo guardado como {tsv_file}")
+
